@@ -994,7 +994,7 @@ margin-bottom: 4px;
 }
 
 .footer-pages-content-grp ul li:before {
-  content: "â€¢";
+  content: ".";
   color: #007c7f;
   position: absolute;
   left: -20px;
