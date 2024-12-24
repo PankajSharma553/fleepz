@@ -21,3 +21,18 @@ window.addEventListener('scroll', function() {
     }
   });
   
+
+  // show content
+const btnReadmore = document.querySelectorAll(".hotels_readmore");
+const desContent = document.querySelectorAll(".hotels_desc");
+btnReadmore.forEach((btn, index) => {
+  btn.addEventListener("click", function () {
+    desContent[index].classList.toggle("active");
+  });
+});
+
+// $(document).ready(function () {
+//   $(".hotels_readmore").click(function () {
+//     $(this).parent().parent().find(".hotels_desc").slideToggle();
+//   });
+// });
