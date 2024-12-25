@@ -52,7 +52,7 @@
         padding: 16px;
         right: 0;
         transform: translateX(100%);
-        max-width: 350px;
+        max-width: 430px;
         width: 100%;
         transition: 0.3s ease-in-out;
     }
@@ -239,9 +239,11 @@
     .why_sec {
         padding: 16px;
     }
-
+    .hotelSlct_btn{
+        margin-top: 8px;
+      }
     .hotels_sec {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 12px;
     }
 
@@ -326,7 +328,7 @@
     }
 
     .footer_socials {
-        width: 40%;
+        width: 32%;
         order: 2;
     }
 
@@ -362,7 +364,9 @@
         font-size: 28px;
         margin-bottom: 16px;
     }
-
+    .banner_content {
+        padding-inline: 28px;
+    }
     .section {
         margin-block: 28px;
     }
